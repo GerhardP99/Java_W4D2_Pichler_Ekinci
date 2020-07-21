@@ -1,0 +1,30 @@
+1) Is the following code legal?
+        try {
+        } finally {
+        }
+Answer:
+Yes
+
+
+
+2) What exception types can be caught by the following handler?
+catch (Exception e) {
+}
+
+Answer:
+Runtime Exceptions: NullPointerException, ArithmeticException
+Other examples: IOException, SQLException
+
+
+
+3) What is wrong with using this type of exception handler?
+
+Is there anything wrong with the following exception handler as written? Will this code compile?
+
+try {
+} catch (Exception e) {
+} catch (ArithmeticException a) {
+
+Answer:
+There should be nothing wrong with the Code and it should run just fine because we can run as many catch
+blocks as we want to just like shown in the Pre-work Day 2.
